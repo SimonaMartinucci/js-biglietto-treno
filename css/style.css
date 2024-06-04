@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    height: 100px;
+    background-color: brown;
+}
+
+h1 {
+    color: white;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+/* MAIN */
+main {
+    background-color: aqua;
+    height: calc(100vh - 100px);
+}
+
+.container {
+    padding: 25px;
+    width: 50%;
+}
+
+.container h2 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+#password {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
