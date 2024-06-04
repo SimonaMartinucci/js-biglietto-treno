@@ -8,7 +8,10 @@ let userAge = parseInt(prompt("Quanti anni ha il viaggiatore?"));
 console.log("I chilometri da percorrere sono: ", userKm);
 console.log("L'età del passegero è: ", userAge);
 
+
+
 // Calcolare il prezzo totale del viaggio
+
 // il prezzo del biglietto è definito in base ai km (0.21 € al km)
 let priceKm = userKm * 0.21;
 
@@ -27,3 +30,4 @@ if(userAge <= 18) {
 console.log("Il prezzo finale del biglietto è: ", ticketPrice);
 
 // L’output con massimo due decimali
+document.getElementById("ticket").innerHTML = "€" + ticketPrice.toFixed(2)
